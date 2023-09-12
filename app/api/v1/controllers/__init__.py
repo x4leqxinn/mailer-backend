@@ -1,0 +1,1 @@
+from .mailer_controller import router as mailer_router
