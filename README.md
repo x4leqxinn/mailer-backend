@@ -9,7 +9,7 @@ The project consists of a backend controller to manage email sending in Python.
 
 ## Environment variables
 
-- Create two environment variable configuration files named .env.dev and .env.prod, using the template.env file as a reference
+- Create an environment variables file called .env and use the template.env file reference.
 
 ## Installation without docker
 
