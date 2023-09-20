@@ -13,3 +13,11 @@ ALLOW_CREDENTIALS = True
 ALLOW_METHODS = ['*']
 ALLOW_HEADERS = ['*']
 EXPOSE_HEADERS = ''
+
+
+# MAILER
+MAILER_SERVER = config('MAILER_SERVER',cast=str)
+MAILER_PORT = config('MAILER_PORT',cast=int)
+MAILER_HOST = config('MAILER_HOST',cast=str)
+MAILER_PASSWORD = config('MAILER_PASSWORD',cast=str)
+

@@ -3,3 +3,4 @@ uvicorn
 python-decouple
 python-dotenv
 pydantic[email]
+jinja2
